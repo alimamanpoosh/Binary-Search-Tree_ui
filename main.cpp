@@ -8,6 +8,12 @@ class node{
         node *right;
         node *left;
     public:
+        int getData(){
+            return data;
+        }
+        void setData(int data){
+            this->data = data;
+        }
         node * getParent(){
             return parent;
         }
